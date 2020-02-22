@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Advanced Selectors</title>
+    <script src='./js/jquery.js'></script>
+
+    <script>
+        $("document").ready(function(){
+            // $("div > p").css("border", "2px solid blue");
+            //  $("div > p.fourth-para").css("border", "2px solid blue");
+             $("#box + ul").css("border", "2px solid blue");
+        });
+    </script>
+    <style>
+
+    </style>
+
+</head>
+
+<body>
+
+        <p class='text'>"Lorem ipsum dolor sit amet, consectetur adipiscing 
+            elit, sed do  eiusmod tempor incididunt ut labore et dolore magna 
+            aliqua.   Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+            laboris nisi ut 
+        </p>
+        <p id='headerTop'>"Lorem ipsum dolor sit amet, consectetur adipiscing 
+            elit, sed do  eiusmod tempor incididunt ut labore et dolore magna 
+            aliqua.   Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+            laboris nisi ut 
+        </p>
+        <div>
+
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing 
+                elit, sed do  eiusmod tempor incididunt ut labore et dolore magna 
+                aliqua.   Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                laboris nisi ut 
+            </p>
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing 
+                elit, sed do  eiusmod tempor incididunt ut labore et dolore magna 
+                aliqua.   Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                laboris nisi ut 
+            </p>
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing 
+                elit, sed do  eiusmod tempor incididunt ut labore et dolore magna 
+                aliqua.   Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                laboris nisi ut 
+            </p>
+            <p class='fourth-para'>"Lorem ipsum dolor sit amet, consectetur adipiscing 
+                elit, sed do  eiusmod tempor incididunt ut labore et dolore magna 
+                aliqua.   Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                laboris nisi ut 
+            </p>
+        </div>
+        <ul>
+            <li><a href=''>Home</a></li>
+            <li><a href=''>Home</a></li>
+            <li><a href=''>Home</a></li>
+            <li><a href=''>Home</a></li>
+            <li><a href=''>Home</a></li>
+        </ul>
+        <div id='box'>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing 
+                     elit, sed do  eiusmod tempor incididunt ut labore et dolore magna 
+                     aliqua.   Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                     laboris nisi ut 
+                 </p>            
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing 
+                 elit, sed do  eiusmod tempor incididunt ut labore et dolore magna 
+                aliqua.   Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                laboris nisi ut 
+                </p>             
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing 
+                 elit, sed do  eiusmod tempor incididunt ut labore et dolore magna 
+                aliqua.   Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                 laboris nisi ut 
+                </p>
+        </div>
+        <ul>
+            <li><a href=''>Home</a></li>
+            <li><a href=''>Home</a></li>
+            <li><a href=''>Home</a></li>
+            <li><a href=''>Home</a></li>
+            <li><a href=''>Home</a></li>
+            </ul>
+
+</body>
+</html>

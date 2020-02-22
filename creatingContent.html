@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Creating Content</title>
+    <script src='./js/jquery.js'></script>
+
+    <script>
+        $("document").ready(function(){
+
+            // $("#create_text").click(function(){
+            //     $("#container p:last").text("Replaced and created this text");
+            // });
+            $("#create_variable").click(function(){
+                var newText = $('#container p:first');
+                $("#container p:last").html(newText);
+            });
+
+        });
+    </script>
+    <style>
+
+    </style>
+
+</head>
+
+<body>
+
+<a id='create' href="#">Create</a>
+<a id='create_text' href="#">Create Text</a>
+<a id='create_variable' href="#">Create Variable</a>
+<div id='container'>
+        <p>"1 Lorem ipsum dolor sit amet, consectetur adipiscing 
+                elit, sed do  eiusmod tempor incididunt ut labore et dolore magna 
+                aliqua.   Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                laboris nisi ut 
+            </p>
+        <p>"2 Lorem ipsum dolor sit amet, consectetur adipiscing 
+                elit, sed do  eiusmod tempor incididunt ut labore et dolore magna 
+                aliqua.   Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                laboris nisi ut 
+            </p>
+        <p>"3 Lorem ipsum dolor sit amet, consectetur adipiscing 
+                elit, sed do  eiusmod tempor incididunt ut labore et dolore magna 
+                aliqua.   Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                laboris nisi ut 
+            </p>
+</div>
+   
+
+</body>
+</html>

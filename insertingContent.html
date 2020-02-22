@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Inserting Content</title>
+    <script src='./js/jquery.js'></script>
+
+    <script>
+        $("document").ready(function(){
+
+            $("#append").click(()=>{
+                $("p:first").append("I just appended some copy!")
+            })
+
+            $("#prepend").click(()=>{
+                $("p:first").prepend("I just Prepended a copy!")
+            })
+
+        });
+    </script>
+    <style>
+
+    </style>
+
+</head>
+
+<body>
+
+<a id='append' href="#">Append</a>
+<a id='prepend' href="#">Prepend</a>
+
+<div id='container'>
+        <p>"1 Lorem ipsum dolor sit amet, consectetur adipiscing 
+                elit, sed do  eiusmod tempor incididunt ut labore et dolore magna 
+                aliqua.   Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                laboris nisi ut 
+            </p>
+        <p>"2 Lorem ipsum dolor sit amet, consectetur adipiscing 
+                elit, sed do  eiusmod tempor incididunt ut labore et dolore magna 
+                aliqua.   Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                laboris nisi ut 
+            </p>
+        <p>"3 Lorem ipsum dolor sit amet, consectetur adipiscing 
+                elit, sed do  eiusmod tempor incididunt ut labore et dolore magna 
+                aliqua.   Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                laboris nisi ut 
+            </p>
+</div>
+   
+
+</body>
+</html>
